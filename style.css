@@ -1,0 +1,76 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* Container for main content */
+#root, #container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Inputs */
+input {
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Output text */
+#output, #result {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Images (GitHub avatar) */
+#result img {
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
